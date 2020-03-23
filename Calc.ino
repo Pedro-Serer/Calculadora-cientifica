@@ -3,11 +3,10 @@
  
   @author 
   	Pedro Serer <pedrotiserer@hotmail.com>
-  	Gustavo Cazoni gucazoni147@gmail.com
+  	Gustavo Cazoni <gucazoni147@gmail.com>
   
   @version 0.0.2
 */
-
 
 #include <LiquidCrystal.h>
 #include <Keypad.h>
@@ -66,7 +65,7 @@ void loop()
         left[qtd] = key;
     } else {
       	flag = true;
-		right[qtd1] = key;
+	right[qtd1] = key;
         qtd1 += 1;
     }
     
