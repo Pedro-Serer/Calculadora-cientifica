@@ -90,7 +90,7 @@ void Display(int valores_na_tela, char seq[])
 
 void operacao(char left[], char right[], char flop){
   lcd.setCursor(13, 1);
-  right[0] = '+';								           //coloca o array como positivo
+  right[0] = '+';				 //coloca o array como positivo
   
   switch (flop) {
   	case '+':
